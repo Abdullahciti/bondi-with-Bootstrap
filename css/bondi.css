@@ -173,5 +173,32 @@ body {
 /* Start news-letter */
 .news-letter {
     background-color: var(--gold-color);
+} 
+.news-letter input {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.news-letter input::-webkit-input-placeholder  {
+    color: white;
+    font-weight: bold;
+}
+.news-letter input:focus,
+.news-letter input:active{
+    outline: none;
+}
+.news-letter button a {
+    color: var(--gold-color);
 }
 /* End news-letter */
+/* Start footer */
+footer {
+    background-color: var(--dark-color);
+}
+footer button {
+    width: 100%;
+}
+footer li {
+    cursor: pointer;
+}
+/* End Footer */
